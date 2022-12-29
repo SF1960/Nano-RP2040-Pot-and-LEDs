@@ -28,6 +28,16 @@ Assemble the circuit following the diagram layout.png attached to the sketch
 
 Upload the code contained in this sketch on to your board
 
+== Step 4: Function
+
+|===
+| Mode |      Type       | LEDS
+|  0   | Sequential      | R-G-B-R-G-B-R
+|  1   | Cascade         | R-RG-RGB-RG-R-RG-RGB-RG-R
+|  2   | Fade Sequential | R-G-B-R-G-B-R
+|  3   | Fade Cascade    | R-RG-RGB-RG-R-RG-RGB-RG-R
+|===
+
 === Folder structure
 
 ....
