@@ -7,6 +7,9 @@
 = Project: {Pot_and_LEDS}
 
 Turn on a bank of LEDs based on the position of a potentiometer
+The Nano RP2040 Connect partly uses the NINA WiFi/Bluetooth module to control some pins
+Because of this, the code only uses 3 outputs as using more corrupts the outputs and therefore the effect
+
 
 == Step 1: Installation
 Please describe the steps to install this project.
@@ -46,12 +49,10 @@ Add the bill of the materials you need for this project.
 
 |===
 | ID | Part name        | Part number | Quantity
-| R1 | 330 Resistor     | COM-B005    | 5
-| L1 | Red LED          |             | 1
-| L2 | Green LED        |             | 1
-| L3 | Blue LED         |             | 1
-| L4 | Yellow LED       |             | 1
-| L5 | White LED        |             | 1
+| R1 | 330 Resistor     | COM-B005    | 6
+| L1 | Red LED          |             | 2
+| L2 | Green LED        |             | 2
+| L3 | Blue LED         |             | 2
 | P1 | 1k Potentiometer | COM1003     | 1
 | A1 | Nano RP2040      | BX00052     | 1
 |===
